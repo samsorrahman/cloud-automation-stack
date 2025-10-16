@@ -1,10 +1,5 @@
 # DevOps End to End Project
 
-<p align="center">
-  <img src="static/logos/nti-logo.png" height="90"/>
-      
-  <img src="static/logos/ivolve-logo.png" height="90"/>
-</p>
 
 
 
@@ -17,8 +12,14 @@
   <img src="./static/system.gif" alt="Demo" />
 </p>
 
----
 
+
+---
+## Project Architecture 
+
+![Architecture](https://github.com/user-attachments/assets/4881fd5d-7aa4-48e7-b55a-3f19b24b112d)
+
+---
 ## Docker & Docker Compose
 
 The app is containerized using **Docker** and configured for local development with **Docker Compose**.
@@ -312,5 +313,6 @@ kubectl apply -f argocd/app-argocd.yaml
 - **Kubernetes (EKS/Local):** Orchestration for scaling, service discovery, and self-healing workloads.
 - **ArgoCD:** Continuous Deployment via GitOps, enabling automated sync and rollback from Git.
 - **AWS:** Cloud provider for compute, networking, monitoring, and storage services.
+
 
 
